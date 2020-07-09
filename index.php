@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Sistema Medical</title>
+		<title>Sistema Medico</title>
 
 		<meta charset="utf-8">
 
@@ -31,7 +31,9 @@
 	
 	<body>
 
-		<div class="login-form">
+		<form method="POST" action="login.php">
+			
+			<div class="login-form">
 			<div class="user">
 				<img src="img/logoJ.jpg">
 			</div>
@@ -58,11 +60,19 @@
 					<i id="hide2" class="fa fa-eye-slash"></i>
 				</span>
 			</div>
+			<div>
 
 					<!--Botão-->
 					<button type="button" class="login-btn">ENTRAR</button>
 
+					<!-- Esqueceu a senha-->
+
+					<!--<a style="text-align: center; display: block; color: white; font-size: 13px;" href="">Esqueci minha Senha</a>-->
+										
+
 			</div>
+
+		</form>
 
 	</body>
 </html>
