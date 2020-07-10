@@ -11,8 +11,16 @@
 		$email = addslashes($_POST['email']);
 		$senha = addslashes($_POST['senha']);
 
-		$u->login($email, $senha);
-
+		if($u->login($email, $senha) == true){
+			if(isset($_SESSION['usuario_id'])){
+				header("location:area-usuario.php");
+			}else{
+				
+				header("location:index.php");
+			}
+		}else{
+			header("location:index.php");
+		}
 	}else{
 
 		#Caso o Required do HTML não trabalhe

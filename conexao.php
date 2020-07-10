@@ -4,6 +4,9 @@
 * Change NULL to port number to use DBMS other than the default using port 3306
 *
 */
+
+session_start();
+
 $user = 'root';
 $password = ''; //To be completed if you have set a password to root
 $database = 'login'; //To be completed to connect to a database. The database must exist.
