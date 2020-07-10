@@ -10,7 +10,7 @@
 
 		<!--JavaScript-->
 
-			<script src="JS/login.js"></script>
+		<script src="JS/login.js"></script>
 
 		<!-- Bootstrap-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -31,9 +31,8 @@
 	
 	<body>
 
-		<form method="POST" action="login.php">
-			
-			<div class="login-form">
+		<form class="login-form" method="POST" action="login.php">
+			<!--Logo usuario-->
 			<div class="user">
 				<img src="img/logoJ.jpg">
 			</div>
@@ -44,7 +43,7 @@
 				<!--icone email-->
 				<i class="fa fa-envelope-o"></i>
 
-				<input type="email" name="Email" placeholder="Insira seu Email" required>
+				<input type="email" name="email" placeholder="Insira seu Email" required>
 			</div>
 					
 			<!--Senha-->
@@ -52,7 +51,7 @@
 				<!--icone key-->
 				<i class="fa fa-key"></i>
 
-				<input type="password" name="Senha" placeholder="Insira sua Senha" id="myInput" required>
+				<input type="password" name="senha" placeholder="Insira sua Senha" id="myInput" required>
 
 				<!--icone eye-->
 				<span class="eye" onclick="hide()">
@@ -60,14 +59,15 @@
 					<i id="hide2" class="fa fa-eye-slash"></i>
 				</span>
 			</div>
+
+			<!--Botão-->
 			<div>
 
-					<!--Botão-->
-					<button type="button" class="login-btn">ENTRAR</button>
+				<button type="submit" class="login-btn">ENTRAR</button>
 
-					<!-- Esqueceu a senha-->
+				<!-- Esqueceu a senha-->
 
-					<!--<a style="text-align: center; display: block; color: white; font-size: 13px;" href="">Esqueci minha Senha</a>-->
+				<!--<a style="text-align: center; display: block; color: white; font-size: 13px;" href="">Esqueci minha Senha</a>-->
 										
 
 			</div>

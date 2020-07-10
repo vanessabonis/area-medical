@@ -1,12 +1,17 @@
 <?php
 
-	require_once("conexao.php");
-	@session_start();
 
-	if (isset($_POST['Email']) && !empty($_POST['Email']) && isset($_POST['Senha']) && !empty($_POST['Senha'])) {
+	if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['senha']) && !empty($_POST['senha'])) {
 
-		$user = addslashes($_POST['Email']);
-		$senha = addslashes($_POST['Senha']);
+		require 'conexao.php';
+		require 'Usuario.class.php';
+
+		$u = new Usuario();
+
+		$email = addslashes($_POST['email']);
+		$senha = addslashes($_POST['senha']);
+
+		$u->login($email, $senha);
 
 	}else{
 
@@ -14,5 +19,7 @@
 		header("location:index.php");
 
 	}
+
+	?>
 
 	
