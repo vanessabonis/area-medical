@@ -50,7 +50,7 @@
     <!--Sidebar-->
     <div class="sidebar">
       <center>
-        <img src="CSS/1.png" class="profile_image" alt="">
+        <img src="CSS/pf.png" class="profile_image" alt="">
         <h4>Dr. Fulano De Tal</h4>
       </center>
       <a href="#"><i class="fas fa-desktop"></i><span>Pacientes</span></a>
