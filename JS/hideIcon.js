@@ -1,4 +1,5 @@
 
+/*HIDE NÃO TÁ FUNCIONANDO*/
 function hide(){
 	var x = document.getELementById("myInput");
 	var y = document.getELementById("hide1");
