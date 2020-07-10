@@ -1,3 +1,2 @@
-# template-sistema
+# crud - sistema medico
 
-area-medico - sistema de cadastro para médicos cadastrarem pacientes relacionados com seus planos
