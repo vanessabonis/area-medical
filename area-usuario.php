@@ -5,7 +5,6 @@
 
 		<meta charset="utf-8">
 
-		<!--Responsivo-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!--JavaScript-->
@@ -15,7 +14,7 @@
 		<!-- Bootstrap-->
 		
 		
-		<!--Folha de Estilo - Login -->
+		<!--Folha de Estilo -->
 		<link rel="stylesheet" href="CSS/area-usuario.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
  		
